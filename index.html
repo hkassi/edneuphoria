@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+	<meta content="utf-8" http-equiv="encoding">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>edneuphoria| home</title>
+	<link rel="stylesheet" href="./css/style-assets.css"/>
+	<link rel="stylesheet" href="./css/style.css"/>
+	<link rel="stylesheet" href="./css/mobile-style.css"/>
+</head>
+<body>
+
+<!----------------------------------------------------------------------------------------------->
+ <header>
+ 	<div class="topbar">
+ 		<div class="location"> 
+ 			<img src="./icon/location.svg">
+ 			<span>City</span>
+ 		</div>
+		<div class="burger" onclick="showMenu()">
+			<div></div>
+			<div></div>
+			<div></div>
+		</div> 
+ 		<div class="logo">EDNEUPHORIA</div>
+ 		<div class="icon-grp">
+ 			<img src="./icon/search.svg">
+ 			<img src="./icon/cart.svg">
+ 		</div>
+ 		
+ 	</div>
+ 	<nav class="menu main-menu responsive-menu">	
+		<ul>
+			<li><a href="#" class="underline-animation">Flowers</a></li>
+			<li><a href="#" class="underline-animation">Plants</a></li>
+			<li><a href="#" class="underline-animation">Gifts</a></li>
+			<li><a href="#" class="underline-animation">Discounts</a></li>
+			<li><a href="#" class="underline-animation">About us</a></li>
+		</ul>
+	</nav>
+ 		
+ 	</nav>
+ </header>
+<!---------------------------------------------------------------------------->
+
+<section>
+	<div class="card-overlaystyle card-hr">
+		<div class="bg-image">
+			<img src="./img/featured/image-1.png" class="featured-image">
+		</div>	
+		<div class="card-content">
+			<div >40% OFF</div> <!--  Title -->
+			<div >Best deals this week. Fresh flowers, plants and gifts</div> <!-- description -->
+			<a class="button button-default button-fill" href="#"> Shop now<span class="arrow">&rarr;</span></a>
+		</div>
+	</div>
+	<div class="card-mini">
+		<div class="card-overlaystyle ">
+			<div class="bg-image">
+				<img src="./img/featured/image-2.png">
+			</div>	
+			<div class="card-content">
+				<div>Nice little gifts</div>
+				<div>for loved ones</div>
+				<div>
+					<a class="button button-link" href="#"> view more <span class="arrow">&rarr;</span></a>
+				</div>
+			</div>
+		</div>
+
+		<div class="card-overlaystyle">
+			<div class="bg-image">
+				<img src="./img/featured/image-3.png">
+			</div>	
+			<div class="card-content">
+				<div>Plants</div>
+				<div>for home confort</div>
+				<div>
+					<a class="button button-link" href="#">view more <span class="arrow">&rarr;</span></a>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	<div class="slider-tracker">
+		<div  class="active-slider"   onclick="featuredSlide(1)"></div>
+		<div  class="inactive-slider" onclick="featuredSlide(2)"></div>
+		<div  class="inactive-slider" onclick="featuredSlide(3)"></div>
+	</div>
+</section>
+<!----------------------------------------------------------------------------------------------->
+
+<section>
+		<div class="gallery-header">
+			<div class="gallery-title">New</div>
+			<div class="gallery-nav-arrows">
+				<span class="arrow">&larr;</span>
+				<span class="arrow">&rarr;</span>
+			</div>
+		</div>
+		<div class="cards">
+			<div class="card">
+				<div class="card-body">
+					<img src="./img/new/bright-orange-bouquet.png">
+				</div>
+				<div class="button-continue">
+					<span class="arrow"> &rarr;</span>
+				</div>
+				<div class="card-footer">
+						<div>Bright orange bouquet</div>
+						<div> 999$</div>
+						<div>123$</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-body">
+					<img src="./img/new/daffodil-spring-bouquet.png">
+				</div>
+				<div class="button-continue">
+					<span class="arrow"> &rarr;</span>
+				</div>
+				<div class="card-footer">
+						<div>Daffodil spring bouquet</div>
+						<div> 999$</div>
+						<div>123$</div>
+				</div>
+			</div>
+			<div class="card card-overleft">
+				<div class="card-body">
+					<img src="./img/new/fresh-white-lilies.png">
+				</div>
+				<div class="button-continue">
+					<span class="arrow"> &rarr;</span>
+				</div>
+				<div class="card-footer">
+						<div>Fresh white lilies bouquet</div>
+						<div> 999$</div>
+						<div>123$</div>
+				</div>
+			</div>
+			<div class="card card-overleft">
+				<div class="card-body">
+					<img src="./img/new/dreamy-bouquet.png">
+				</div>
+				<div class="button-continue">
+					<span class="arrow"> &rarr;</span>
+				</div>
+				<div class="card-footer">
+						<div>Dreamy dreamy</div>
+						<div> 999$</div>
+						<div>123$</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
+<!--------------------------------------------------------------------------------------------------->
+<section>
+		<div class="gallery-header">
+			<div class="gallery-title">Relevant</div>
+			<div class="gallery-nav-arrows">
+				<span class="arrow">&larr;</span>
+				<span class="arrow">&rarr;</span>
+			</div>
+		</div>
+		<div class="cards">
+			<div class="card">
+				<div class="card-body">
+					<img src="./img/relevant/fresh-flowers-bouquet.png">
+				</div>
+				<div class="button-continue">
+					<span class="arrow"> &rarr;</span>
+				</div>
+				<div class="card-footer">
+						<div>Fresh flowers bouquet</div>
+						<div> 999$</div>
+						<div>123$</div>
+				</div>
+			</div>
+
+			<div class="card">
+				<div class="card-body">
+					<img src="./img/relevant/birthday-bouquet.png">
+				</div>
+				<div class="button-continue">
+					<span class="arrow"> &rarr;</span>
+				</div>
+				<div class="card-footer">
+						<div>Birthday bouquet</div>
+						<div> 999$</div>
+						<div>123$</div>
+				</div>
+			</div>
+
+			<div class="card card-overleft">
+				<div class="card-body">
+					<img src="./img/relevant/spring-tulips-bouquet.png">
+				</div>
+				<div class="button-continue">
+					<span class="arrow"> &rarr;</span>
+				</div>
+				<div class="card-footer">
+						<div>Spring tulips bouquet</div>
+						<div> 999$</div>
+						<div>123$</div>
+				</div>
+			</div>
+			
+			<div class="card card-overleft">
+				<div class="card-body">
+					<img src="./img/relevant/spring-colorful-bouquet.png">
+				</div>
+				<div class="button-continue">
+					<span class="arrow"> &rarr;</span>
+				</div>
+				<div class="card-footer">
+						<div>Spring colorful bouquet</div>
+						<div> 999$</div>
+						<div>123$</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+</section>
+<!--------------------------------------------------------------------->
+<footer>
+	<div>
+		<div>Follow us</div>
+		<div><a href="#" class="underline-animation">+12344567890</a></div>
+ 		<div class="icon-grp">
+ 			<img src="./icon/facebook.svg">
+ 			<img src="./icon/whatsapp.svg">
+ 			<img src="./icon/instagram.svg">
+ 		</div>
+		
+	</div>
+	<div>
+		<div>Help</div>
+		<div><a href="#" class="underline-animation">Contact us</div>
+		<div><a href="#" class="underline-animation">Delivery information</a></div>
+		<div><a href="#" class="underline-animation">Payement information</a></div>
+		<div><a href="#" class="underline-animation">Customer service</a></div>
+		<div><a href="#" class="underline-animation">FAQ</a></div>
+	</div>
+	<div>
+		<div>About us</div>
+		<div><a href="#" class="underline-animation">Our stores</a></div>
+		<div><a href="#" class="underline-animation">Flower care</a></div>
+		<div><a href="#" class="underline-animation">Site map</a></div>
+	</div>
+	<div>
+		<div>Legal</div>
+		<div><a href="#" class="underline-animation">Privacy</a></div>
+		<div><a href="#" class="underline-animation">Terms & Conditions</a></div>
+		<div><a href="#" class="underline-animation">Cookie policy</a></div>
+	</div>
+</footer>
+<div class="copyright">
+	<div>
+		<small>credits to <a href="https://www.behance.net/foxecila" 
+				style="color:snow;">Alice</a> for the ux-ui design&copy;copyright, 2021</small>
+	</div>
+</div>
+
+<script src="./js/script.js" type="text/javascript"></script>
+</body>
+</html>
